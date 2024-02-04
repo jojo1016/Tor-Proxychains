@@ -94,7 +94,7 @@ Remove & Replace comment from chain
      ##Proxy DNS requests - no leak for DNS data ---> Proxy DNS requests - no leak for DNS data
   
 Step 8: Also add Mention IP & PORT at the end of proxychains.conf file
-  
+      ## socks4  127.0.0.1 9050
       socks5  127.0.0.1 9050
   
   
@@ -109,7 +109,7 @@ Step 8: Now reboot your system
    
 Step 9: Check Tor Proxychains with below command
 
-       proxychains firefox whatismyipaddress.com
+       proxychains firefox https://whatismyipaddress.com
    
    
    
