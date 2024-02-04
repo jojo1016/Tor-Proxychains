@@ -77,7 +77,7 @@ Step 6: Lets go now fixed this issue
 
 Step 7: Now configure Proxychains.conf file
 
-     sudo nano /etc/proxychains.conf
+     sudo vi /etc/proxychains.conf
   
   
 ![Tor](https://user-images.githubusercontent.com/120317751/213960159-e0e265a5-670c-41bd-bdb6-750601bd9551.gif)
@@ -110,6 +110,7 @@ Step 8: Now reboot your system
 Step 9: Check Tor Proxychains with below command
 
        proxychains firefox https://whatismyipaddress.com
+       proxychains curl https://ifconfig.me
    
    
    
